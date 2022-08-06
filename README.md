@@ -1,4 +1,4 @@
-# SihProject-RV1239
+# SIH Project-RV1239
 # PS ID: RV1239
 # Problem Statement: Layering of Bank Account
 # Organisation: Communication and Information Services, MHA
