@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://kit.fontawesome.com/3441cdc91e.js" crossorigin="anonymous"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bosotstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+    .signs-up-container{
+        /* background-color: rgb(255, 255, 255); */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        top: 0px;
+        left: 0px;
+    }
+
+    .signs-up-container::before{
+        content: "";
+        position: absolute;
+        background: url(money-laundering-1.png) center center/cover no-repeat;
+        height: 100vh;
+        z-index: -1;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        opacity: 0.1;
+    }
+
+    .signs-up{
+        margin: 20px;
+        /* background-color: whitesmoke; */
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    label{
+        margin: 15px 0px 0px 0px;
+        font-size: 18px;
+    }
+
+    input{
+        margin: 0px;
+        padding: 0px;
+    }
+
+    </style>
+</head>
+
+<body>
+    <div class="signs-up-container">
+        <div class="signs-up col-md-7">
+            <h2 class="text-center my-3 font-weight-bold ">Sign-up</h2>
+            <form class="row m-3 ">
+                <div class="row ">
+                    <div class="col-lg-4 ">
+                        <label for="validationDefault01" class="form-label"><b>First name</b></label>
+                        <input type="text" class="form-control" id="validationDefault01" required>
+                    </div>
+                    <div class="col-lg-4 ">
+                        <label for="validationDefault02" class="form-label"><b>Last name</b></label>
+                        <input type="text" class="form-control" id="validationDefault02" required>
+                    </div>
+                    <div class="col-lg-4 ">
+                        <label for="validationDefaultUsername" class="form-label"><b>Username</b></label>
+                        <div class="input-group">
+                            <!-- <span class="input-group-text" id="inputGroupPrepend2">@</span> -->
+                            <input type="text" class="form-control" id="validationDefaultUsername"
+                                aria-describedby="inputGroupPrepend2" required>
+                        </div>
+                    </div>
+                </div>
+                <div class="row  ">
+                    <div class="col-lg-6 ">
+                        <label for="validationDefault03" class="form-label"><b>E-mail</b></label>
+                        <input type="email" class="form-control" id="validationDefault03" required>
+                    </div>
+                    <div class="col-lg-6 ">
+                        <label for="validationDefault04" class="form-label"><b>Mobile Number</b></label>
+                        <input type="number" class="form-control" id="validationDefault03" required>
+                    </div>
+                </div>
+                <div class="row ">
+                    <div class="col-lg-6 ">
+                        <label for="validationDefault05" class="form-label"><b>Password</b></label>
+                        <input type="password" class="form-control" id="validationDefault05" required>
+                    </div>
+                    <div class="col-lg-6 ">
+                        <label for="validationDefault05" class="form-label"><b>Confirm Password</b></label>
+                        <input type="password" class="form-control" id="validationDefault05" required>
+                    </div>
+                </div>
+                <div class="col-12 ">
+                    <button class="btn btn-dark mx-auto d-block mt-4 w-50" type="submit">SIGN UP</button>
+                    <p class="text-center my-3">Already have an account? Then please <a href="">sign-in</a> </p>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
